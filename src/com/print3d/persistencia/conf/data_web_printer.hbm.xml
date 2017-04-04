@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.print3d.persistencia.Data_web_printer" table="data_web_printer">
+		<id name="iddatawebPrinter" column="iddatawebPrinter">
+			<generator class="increment" />
+		</id>
+		<property name="dataPrice" />
+		<property name="dataTitle" />
+		<property name="idImpresora" />
+	</class>
+</hibernate-mapping>
